@@ -87,7 +87,7 @@ input, select, button {
 
 #schedule thead th { background: var(--head); }
 #schedule th.task { background: var(--task); width: 34%; }
-#schedule th.task small.time { direction: ltr; display: flex; justify-content: center; gap: 4px; }
+#schedule th.task small.time { display: flex; justify-content: center; gap: 4px; }
 #schedule th.task small { color: var(--muted); font-weight: normal; font-size: 12px; }
 #schedule tbody tr:nth-child(even) td { background: #f0f0f3; }
 
