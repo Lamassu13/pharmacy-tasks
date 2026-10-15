@@ -13,7 +13,7 @@ export const ROWS = [
   { id: 'g3', label: 'الألبومين + التوزيع + كول ١', time: '12:00 – 12:30', tasks: ['albumin', 'distribution', 'call1'] },
   { id: 'g4', label: 'التجهيز + التوزيع + كول ١', time: '12:30 – 1:00', tasks: ['prep', 'distribution', 'call1'] },
   { id: 'g5', label: 'الإضافي + جارت نسائية + كول ٢', time: '1:30 – 2:00', tasks: ['extra', 'women_jaret', 'call2'] },
-  { id: 'g6', label: 'التوزيع + كول ١', time: '12:00 – 12:30', tasks: ['distribution', 'call1'] },
+  { id: 'g6', label: 'التوزيع + كول ١ + الاسترجاع', time: '12:00 – 12:30', tasks: ['distribution', 'call1', 'return'] },
   // Fixed: 1st crash-cart name → الوحدة الثانية, 2nd → الوحدة الرابعة. They also take part in the random groups.
   { id: 'crash', label: 'دواليب الصدمة', tasks: [], fixed: true },
 ];

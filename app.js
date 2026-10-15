@@ -1,4 +1,4 @@
-import { UNITS, ROWS, distribute } from './distribute.mjs?v=3';
+import { UNITS, ROWS, distribute } from './distribute.mjs?v=4';
 
 // All data lives in this browser's localStorage (single user, no server).
 const KEY = 'pharmacy-tasks';
