@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>توزيع مهام الصيدلية</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>توزيع مهام الصيدلية</h1>
+
+    <section class="card">
+      <h2>الموظفون</h2>
+      <form id="staff-form" class="row">
+        <input id="staff-name" placeholder="اسم الموظف" required>
+        <button>إضافة</button>
+      </form>
+      <ul id="staff-list" class="staff-list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>دواليب الصدمة (اسمان ثابتان)</h2>
+      <div class="row">
+        <select id="crash-a"></select>
+        <select id="crash-b"></select>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>التوزيع</h2>
+      <div class="row">
+        <label><input type="checkbox" id="unit-2" checked> الوحدة الثانية</label>
+        <label><input type="checkbox" id="unit-4" checked> الوحدة الرابعة</label>
+        <input type="date" id="date">
+      </div>
+      <div class="row">
+        <button id="generate">توزيع عشوائي</button>
+      </div>
+      <p id="msg" class="msg" role="status"></p>
+    </section>
+
+    <section class="card">
+      <h2>نسخة احتياطية</h2>
+      <div class="row">
+        <button id="export" type="button">تصدير</button>
+        <label class="file-btn">استيراد <input type="file" id="import" accept=".json" hidden></label>
+      </div>
+    </section>
+
+    <div class="table-wrap">
+      <table id="schedule"></table>
+    </div>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
